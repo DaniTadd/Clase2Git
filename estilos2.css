@@ -1,0 +1,29 @@
+body {
+    margin: auto 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.externo, .medio, .interno {
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    
+    
+}
+
+.externo {
+    align-self: flex-start;
+    background-color: coral;
+
+}
+.medio {
+    align-self: center;
+    background-color: cornflowerblue;
+}
+
+.interno {
+    align-self: flex-end;
+    background-color: darkseagreen;
+}

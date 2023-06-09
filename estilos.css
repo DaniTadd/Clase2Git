@@ -1,0 +1,23 @@
+.externo, .medio, .interno {
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid blue;
+    
+    
+}
+
+.externo {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+
+}
+.medio {
+    height: 300px;
+    background-color: yellowgreen;
+}
+
+.interno {
+    height: 200px;
+    background-color: yellow;
+}
